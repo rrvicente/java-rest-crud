@@ -1,0 +1,16 @@
+package com.datainfo.rest.services.annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+import javax.ws.rs.HttpMethod;
+
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@HttpMethod("PATCH")
+public @interface PATCH {
+//	Por padrão o Jersey não possui uma implementação para a anotação PATCH (updates parciais).
+//	Por este motivo se faz necessário criá-lo aqui.
+}
