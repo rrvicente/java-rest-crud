@@ -17,7 +17,8 @@ import com.owlike.genson.ext.jaxrs.GensonJsonConverter;
 
 public class TestRestAPI {
 
-	public static String WS_PATH = "http://localhost:8080/services/";
+	public static String WS_PATH = "http://localhost:8080/java-rest-crud/services/";
+//	public static String WS_PATH = "http://localhost:8080/services/";
 
 	public static void main(String[] args) {
 
